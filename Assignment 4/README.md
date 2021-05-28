@@ -3,6 +3,8 @@
 ***SOLUTION:***
 
 Architecture - Modified Resnet - ***MNISTResnet***
+![model_architecture](https://user-images.githubusercontent.com/35656144/120026836-819e2200-bfa7-11eb-9c75-f3dd2316808e.png)
+
 
 We implemented the concept of Resnet Architecture but with many significant changes like decreasing the number of channels per layer as well as the blocks
 
@@ -20,7 +22,10 @@ How our Implementation differs from the Original Resnet:
 
 Additional Points:
 
-- We use Learning Rate Finder to find a suitable learning rate by plotting the graph of learning rate vs Loss. We start from an initial small learning rate of 1e-7 and go uptil a value of 10
+- We use Learning Rate Finder to find a suitable learning rate by plotting the graph of learning rate vs Loss. We start from an initial small learning rate of 1e-7 and go uptil a value of 10![WhatsApp Image 2021-05-28 at 9 46 57 AM](https://user-images.githubusercontent.com/35656144/120026546-148a8c80-bfa7-11eb-8719-0d3f32b4e032.jpeg)
+- Training / Test Accuray with 19k params model![WhatsApp Image 2021-05-28 at 9 48 36 AM](https://user-images.githubusercontent.com/35656144/120026765-6b906180-bfa7-11eb-9a0b-7c44ef2665f7.jpeg)
+
+
 
 
 
