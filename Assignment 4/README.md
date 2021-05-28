@@ -1,3 +1,11 @@
+**TEAM MEMBERS**
+
+Darshan jani ,
+Rushiraj parmer,
+Jaiveer ,
+Saurabh Jain
+
+
 #### Task - Create an Image Classification Network with less than 20K Params but achieves more than 99.4% Val accuracy
 
 ***SOLUTION:***
