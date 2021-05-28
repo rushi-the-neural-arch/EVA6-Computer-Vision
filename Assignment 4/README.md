@@ -8,7 +8,7 @@ Architecture - Modified Resnet - ***MNISTResnet***
 
 We implemented the concept of Resnet Architecture but with many significant changes like decreasing the number of channels per layer as well as the blocks
 
-The architecture has 19K params and consists of 8 Conv layers. Due to the concept of Residual addition, we achieve 98.93% **VAL ACCURACY** just within 5 epochs (Couldn't train or experiment more due to time constraints, sorry :( ) ) 
+The architecture has 19K params and consists of 8 Conv layers. Due to the concept of Residual addition, we achieve 98.93% **VAL ACCURACY** with 40 epochs. 
 
 
 
@@ -126,9 +126,3 @@ class IteratorWrapper:
         return next(self)
         
         
-Team members:-
-
-    Darshan jani
-    Rushiraj
-    Jaiveer
-    Saurabh Jain
