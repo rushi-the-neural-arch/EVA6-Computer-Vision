@@ -36,9 +36,8 @@ Additional Points:
 
 
 
-
-   class LRFinder:
-    def __init__(self, model, optimizer, criterion, device):
+      class LRFinder:
+       def__init__(self, model, optimizer, criterion, device):
         
         self.optimizer = optimizer
         self.model = model
@@ -47,7 +46,7 @@ Additional Points:
         
         torch.save(model.state_dict(), 'init_params.pt')
 
-    def range_test(self, iterator, end_lr = 10, num_iter = 100, 
+      def range_test(self, iterator, end_lr = 10, num_iter = 100, 
                    smooth_f = 0.05, diverge_th = 5):
         
         lrs = []
@@ -84,7 +83,7 @@ Additional Points:
                     
         return lrs, losses
 
-    def _train_batch(self, iterator):
+      def _train_batch(self, iterator):
         
         self.model.train()
         
@@ -105,23 +104,23 @@ Additional Points:
         
         return loss.item()
 
-class ExponentialLR(_LRScheduler):
-    def __init__(self, optimizer, end_lr, num_iter, last_epoch=-1):
+      class ExponentialLR(_LRScheduler):
+       def __init__(self, optimizer, end_lr, num_iter, last_epoch=-1):
         self.end_lr = end_lr
         self.num_iter = num_iter
         super(ExponentialLR, self).__init__(optimizer, last_epoch)
 
-    def get_lr(self):
+      def get_lr(self):
         curr_iter = self.last_epoch + 1
         r = curr_iter / self.num_iter
         return [base_lr * (self.end_lr / base_lr) ** r for base_lr in self.base_lrs]
 
-class IteratorWrapper:
-    def __init__(self, iterator):
+      class IteratorWrapper:
+       def __init__(self, iterator):
         self.iterator = iterator
         self._iterator = iter(iterator)
 
-    def __next__(self):
+      def __next__(self):
         try:
             inputs, labels = next(self._iterator)
         except StopIteration:
@@ -130,7 +129,7 @@ class IteratorWrapper:
 
         return inputs, labels
 
-    def get_batch(self):
+      def get_batch(self):
         return next(self)
         
         
