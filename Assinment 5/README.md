@@ -31,7 +31,7 @@ Team Members-
 7:Keep Receptive field calculations handy for each of your models. 
 
 
-**ANALYSIS**
+## **ANALYSIS**
 
 
 |        | Target                                  | Parameters | Train Acc | Val Acc   |
