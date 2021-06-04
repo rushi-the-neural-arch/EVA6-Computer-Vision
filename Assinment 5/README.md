@@ -42,7 +42,7 @@
 
 
 
-## Code 1
+## Approach 1
 
 **Target**
 
@@ -62,7 +62,7 @@
 
 . The accuracy of both is reduced by increasing dropout
 
-## Code 2
+## Approach 2
 
 **Target**
 
@@ -82,7 +82,7 @@
 
 . Should see how it works introducing LR and reducing no of parameters
 
-## Code 3
+## Approach 3
 
 **Target**
 
