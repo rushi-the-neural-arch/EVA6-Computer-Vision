@@ -36,9 +36,9 @@
 
 |        | Target                                  | Parameters | Train Acc | Val Acc   |
 | :----- | --------------------------------------- | ---------- | --------- | --------- |
-| Code 1 | Increased the dropout from 0.1 to 0.12  | 9872       | 98.64     | 99.32     |
-| Code 2 | Decreased the dropout from 0.12 to 0.05 | 9872       | 98.91     | 99.53     |
-| Code 3 | Decreased the dropout from 0.05 to 0.02 | **8016**   | **98.93** | **99.42** |
+| Approach 1 | Increased the dropout from 0.1 to 0.12  | 9872       | 98.64     | 99.32     |
+| Approach 2 | Decreased the dropout from 0.12 to 0.05 | 9872       | 98.91     | 99.53     |
+| Approach 3 | Decreased the dropout from 0.05 to 0.02 | **8016**   | **98.93** | **99.42** |
 
 
 
