@@ -102,6 +102,7 @@ Best test accuracy - 99.42
 
 
 
+![Curves](https://user-images.githubusercontent.com/34182074/120846778-3cbe5080-c590-11eb-99c5-4253a23e9859.png)
 
 
 
