@@ -29,53 +29,7 @@ Team Members-
 
 
 
-## Code1 - Setup
-**Target**
-
-. Set up the skeleton with dropout, batch Norm etc
-
-**Results** 
-
-. Parameters - 8064 
-
-. Best training accuracy- 98.13
-
-. Best test accuracy - 99.17
-
-**Analysis**
-
-. Model is under-fitting
-
-. The gap between test and train is high
-
-. Capacity can be increased
-
-## Code2
-**Target**
-
-. Added 1 more convolution layer and Gap Layer
-
-. Changed the number of kernels in some conv layers
-
-. Increased the capacity
-
-**Results**
-
-. Parameters - 9634
-
-. Best training accuracy- 98.67
-
-. Best test accuracy - 99.4
-
-
-**Analysis**
-
-. Target is reached, but only once.
-
-. Model is still under-fitting
-
-
-## Code 3
+## Code 1
 
 **Target**
 
@@ -95,7 +49,7 @@ Team Members-
 
 . The accuracy of both is reduced by increasing dropout
 
-## Code 4
+## Code 2
 
 **Target**
 
@@ -115,7 +69,7 @@ Team Members-
 
 . Should see how it works introducing LR and reducing no of parameters
 
-## Code 5
+## Code 3
 
 **Target**
 
