@@ -28,15 +28,25 @@ Session_6_BatchNorm_GroupNorm_LayerNorm.ipynb file contains all model stats alon
 
 ![Screenshot from 2021-06-11 22-52-48](https://user-images.githubusercontent.com/74832766/121726158-ced1d600-cb07-11eb-9f8f-01bcd25704e8.png)
 
+<h3> Miss Classified Images in Group Normalization</h3>
+![Screenshot from 2021-06-11 23-15-00](https://user-images.githubusercontent.com/74832766/121728715-42291700-cb0b-11eb-9a93-35e8f117b382.png)
+
 <h2> Batch Normalization  Architecture :- </h2>
 
 ![Screenshot from 2021-06-11 22-55-03](https://user-images.githubusercontent.com/74832766/121726556-54ee1c80-cb08-11eb-8c5a-f8508030284b.png)
+
+<h3> Miss Classified Images in Batch Normalization</h3>
+![Screenshot from 2021-06-11 23-15-21](https://user-images.githubusercontent.com/74832766/121728749-4d7c4280-cb0b-11eb-9957-59aa20e434a1.png)
 
 <h2> Layer Normalization Architecture :-</h2>
 
 ![Screenshot from 2021-06-11 22-55-25](https://user-images.githubusercontent.com/74832766/121726602-6800ec80-cb08-11eb-8cba-c18af70e735e.png)
 
-All Normalizatin technique used model performance comparison 
+<h3> Miss Classified Images in Layer Normalization</h3>
+![Screenshot from 2021-06-11 23-15-45](https://user-images.githubusercontent.com/74832766/121728776-540aba00-cb0b-11eb-83fa-d23112f5c0ad.png)
+
+
+<h2>All Normalizatin technique used model performance comparison </h2>
 ![Screenshot from 2021-06-11 22-56-02](https://user-images.githubusercontent.com/74832766/121726683-849d2480-cb08-11eb-8eb0-d51f9b1c7da1.png)
 ![Screenshot from 2021-06-11 22-56-21](https://user-images.githubusercontent.com/74832766/121726702-89fa6f00-cb08-11eb-9b80-06804601fab1.png)
 
