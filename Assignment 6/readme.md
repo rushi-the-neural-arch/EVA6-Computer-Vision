@@ -1,5 +1,5 @@
 
-    Problem statement
+    <h1>Problem statement</h1>
     You are making 3 versions of your 5th assignment's best model (or pick one from best assignments):
         Network with Group Normalization
         Network with Layer Normalization
@@ -21,16 +21,18 @@
         Upload your complete assignment on GitHub and share the link on LMS
         Mention the name of your partners who are doing the assignment. If someone submits separately, then we will see who scored lowest, and we will assign the lowest to all. If there are NO partners, then mention there are NO parters and make sure NO one mentions your name. 
 
+We have created a separtae model.py which is responsible for the iniatialization of model. where we have to pass Type of normalization we want (BN/GN/LN) to use.
+Session_6_BatchNorm_GroupNorm_LayerNorm.ipynb file contains all model stats along with performance of each Normalization Technique.
 
-1)<h2> Group Normalization Neural Architecture:- </h2>
+<h2> Group Normalization Neural Architecture:- </h2>
 
 ![Screenshot from 2021-06-11 22-52-48](https://user-images.githubusercontent.com/74832766/121726158-ced1d600-cb07-11eb-9f8f-01bcd25704e8.png)
 
-2) Batch Normalization  Architecture :- 
+<h2> Batch Normalization  Architecture :- </h2>
 
 ![Screenshot from 2021-06-11 22-55-03](https://user-images.githubusercontent.com/74832766/121726556-54ee1c80-cb08-11eb-8c5a-f8508030284b.png)
 
-3) Layer Normalization Architecture :-
+<h2> Layer Normalization Architecture :-</h2>
 
 ![Screenshot from 2021-06-11 22-55-25](https://user-images.githubusercontent.com/74832766/121726602-6800ec80-cb08-11eb-8cba-c18af70e735e.png)
 
