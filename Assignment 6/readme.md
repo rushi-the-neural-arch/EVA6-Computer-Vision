@@ -1,25 +1,26 @@
 <h1>Problem statement</h1>
 </br>You are making 3 versions of your 5th assignment's best model (or pick one from best assignments):
-        Network with Group Normalization
-        Network with Layer Normalization
-        Network with L1 + BN
+</br>        Network with Group Normalization
+</br>        Network with Layer Normalization
+</br>        Network with L1 + BN
 </br>You MUST:
-        Write a single model.py file that includes GN/LN/BN and takes an argument to decide which normalization to include
-        Write a single notebook file to run all the 3 models above for 20 epochs each
-        Create these graphs:
-            Graph 1: Test/Validation Loss for all 3 models together
-            Graph 2: Test/Validation Accuracy for 3 models together
-            graphs must have proper annotation
-        Find 10 misclassified images for each of the 3 models, and show them as a 5x2 image matrix in 3 separately annotated images. 
-        write an explanatory README file that explains:
-            what is your code all about,
-            how to perform the 3 covered normalization (cannot use values from the excel sheet shared)
-            your findings for normalization techniques,
-            add all your graphs
-            your 3 collection-of-misclassified-images 
-        Upload your complete assignment on GitHub and share the link on LMS
-        Mention the name of your partners who are doing the assignment. If someone submits separately, then we will see who scored lowest, and we will assign the lowest to all. If there are NO partners, then mention there are NO parters and make sure NO one mentions your name. 
+</br>        Write a single model.py file that includes GN/LN/BN and takes an argument to decide which normalization to include
+</br>        Write a single notebook file to run all the 3 models above for 20 epochs each
+</br>        Create these graphs:
+</br>            Graph 1: Test/Validation Loss for all 3 models together
+</br>            Graph 2: Test/Validation Accuracy for 3 models together
+</br>            graphs must have proper annotation
+</br>        Find 10 misclassified images for each of the 3 models, and show them as a 5x2 image matrix in 3 separately annotated images. 
+</br>        write an explanatory README file that explains:
+</br>            what is your code all about,
+</br>            how to perform the 3 covered normalization (cannot use values from the excel sheet shared)
+</br>            your findings for normalization techniques,
+</br>            add all your graphs
+</br>            your 3 collection-of-misclassified-images 
+</br>        Upload your complete assignment on GitHub and share the link on LMS
+</br>        Mention the name of your partners who are doing the assignment. If someone submits separately, then we will see who scored lowest, and we will assign the lowest to all. If there are NO partners, then mention there are NO parters and make sure NO one mentions your name. 
 
+<h3> Approach</h3>
 We have created a separate model.py which is responsible for the initialization of model. where we have to pass Type of normalization we want (BN/GN/LN) to use.</br>
 Session_6_BatchNorm_GroupNorm_LayerNorm.ipynb file contains all model stats along with performance of each Normalization Technique.
 
