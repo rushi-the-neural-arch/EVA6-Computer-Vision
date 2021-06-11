@@ -50,7 +50,9 @@ Session_6_BatchNorm_GroupNorm_LayerNorm.ipynb file contains all model stats alon
 
 
 <h2>All Normalizatin technique used model performance comparison </h2>
+
 ![Screenshot from 2021-06-11 22-56-02](https://user-images.githubusercontent.com/74832766/121726683-849d2480-cb08-11eb-8eb0-d51f9b1c7da1.png)
+
 ![Screenshot from 2021-06-11 22-56-21](https://user-images.githubusercontent.com/74832766/121726702-89fa6f00-cb08-11eb-9b80-06804601fab1.png)
 
 
