@@ -1,10 +1,9 @@
-
-    <h1>Problem statement</h1>
-    You are making 3 versions of your 5th assignment's best model (or pick one from best assignments):
+<h1>Problem statement</h1>
+</br>You are making 3 versions of your 5th assignment's best model (or pick one from best assignments):
         Network with Group Normalization
         Network with Layer Normalization
         Network with L1 + BN
-    You MUST:
+</br>You MUST:
         Write a single model.py file that includes GN/LN/BN and takes an argument to decide which normalization to include
         Write a single notebook file to run all the 3 models above for 20 epochs each
         Create these graphs:
@@ -21,7 +20,7 @@
         Upload your complete assignment on GitHub and share the link on LMS
         Mention the name of your partners who are doing the assignment. If someone submits separately, then we will see who scored lowest, and we will assign the lowest to all. If there are NO partners, then mention there are NO parters and make sure NO one mentions your name. 
 
-We have created a separtae model.py which is responsible for the iniatialization of model. where we have to pass Type of normalization we want (BN/GN/LN) to use.
+We have created a separate model.py which is responsible for the initialization of model. where we have to pass Type of normalization we want (BN/GN/LN) to use.</br>
 Session_6_BatchNorm_GroupNorm_LayerNorm.ipynb file contains all model stats along with performance of each Normalization Technique.
 
 <h2> Group Normalization Neural Architecture:- </h2>
