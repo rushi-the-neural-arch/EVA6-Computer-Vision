@@ -23,12 +23,15 @@
 
 
 1) Group Normalization Neural Architecture:- 
+2) 
 ![Screenshot from 2021-06-11 22-52-48](https://user-images.githubusercontent.com/74832766/121726158-ced1d600-cb07-11eb-9f8f-01bcd25704e8.png)
 
 2) Batch Normalization  Architecture :- 
+3) 
 ![Screenshot from 2021-06-11 22-55-03](https://user-images.githubusercontent.com/74832766/121726556-54ee1c80-cb08-11eb-8c5a-f8508030284b.png)
 
 3) Layer Normalization Architecture :-
+
 ![Screenshot from 2021-06-11 22-55-25](https://user-images.githubusercontent.com/74832766/121726602-6800ec80-cb08-11eb-8cba-c18af70e735e.png)
 
 All Normalizatin technique used model performance comparison 
