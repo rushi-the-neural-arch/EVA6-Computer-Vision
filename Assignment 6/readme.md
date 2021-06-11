@@ -22,7 +22,7 @@
         Mention the name of your partners who are doing the assignment. If someone submits separately, then we will see who scored lowest, and we will assign the lowest to all. If there are NO partners, then mention there are NO parters and make sure NO one mentions your name. 
 
 
-1) Group Normalization Neural Architecture:- 
+1)<h2> Group Normalization Neural Architecture:- </h2>
 
 ![Screenshot from 2021-06-11 22-52-48](https://user-images.githubusercontent.com/74832766/121726158-ced1d600-cb07-11eb-9f8f-01bcd25704e8.png)
 
